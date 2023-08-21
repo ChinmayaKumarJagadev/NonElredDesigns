@@ -13,10 +13,14 @@
     margin: 0 auto;
     background-image: url('./assets/profile.png');
     width: 373px;
-    height: 1579px;
     background-size: cover;
     height: 100vh;
+    height: 100vh;
     overflow-y: auto;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
 }
 
 #navbar {
@@ -227,10 +231,11 @@
 }
 
 .testimonialCard {
+    width: 305px;
     flex: 0 0 auto;
-    max-width: 400px;
+    max-width: 397px;
     padding: 15px 5px 20px 0px;
-    margin-right: 10px;
+    margin-right: 0px;
     transition: transform 0.3s ease-in-out;
     position: relative;
 }
